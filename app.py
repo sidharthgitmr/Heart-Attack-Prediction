@@ -48,7 +48,7 @@ bmib=st.number_input("BMI",min_value=1,max_value=100,step=1)
 dfwalkb=st.selectbox("Difficulty In Walking",['No','Yes'])
 st.divider()
 
-st.write(model)
+
 sex_encode=sex.transform([sexb])
 genhealth_encode=genhealth.transform([genhealthb])
 phyacti_encoded=phyacti.transform([phyactib])
